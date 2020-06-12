@@ -19,7 +19,7 @@
     <!-- Шапка-->
     <header class="header">
       <!--Навигация сайта-->
-      <nav class="nav">
+      <nav class="nav container">
         <a href="./index.html" lang="en" class="logo-link">
           <span class="logo-web">Web</span> Studio
         </a>
@@ -42,9 +42,8 @@
         </ul>
       </nav>
     </header>
-
     <!--Главный контент страницы-->
-    <main>
+    <main class="container">
       <!-- Секция работ-->
       <section>
         <h1 class="portfolio">Портфолио</h1>
@@ -60,7 +59,12 @@
         <ul class="port-list">
           <li>
             <a href=""
-              ><img src="./image/portfolio1.jpg " alt="Ноутбук" width="370" />
+              ><img
+                class="port-img"
+                src="./image/portfolio1.jpg "
+                alt="Ноутбук"
+                width="370"
+              />
               <h2 class="port-title">Технокряк</h2>
               <p class="port-subtitle">Веб-сайт</p>
               <p class="port-text">
@@ -73,7 +77,12 @@
 
           <li>
             <a href=""
-              ><img src="./image/portfolio2.jpg" alt="Постер НБА" width="370" />
+              ><img
+                class="port-img"
+                src="./image/portfolio2.jpg"
+                alt="Постер НБА"
+                width="370"
+              />
               <h2 class="port-title">Постер New Orlean vs Golden Star</h2>
               <p class="port-subtitle">Дизайн</p>
               <p class="port-text">
@@ -103,7 +112,12 @@
 
           <li>
             <a href=""
-              ><img src="./image/portfolio4.jpg" alt="Наушники" width="370" />
+              ><img
+                class="port-img"
+                src="./image/portfolio4.jpg"
+                alt="Наушники"
+                width="370"
+              />
               <h2 class="port-title">Проект Prime</h2>
               <p class="port-subtitle">Маркетинг</p>
               <p class="port-text">
@@ -116,7 +130,12 @@
 
           <li>
             <a href=""
-              ><img src="./image/portfolio5.jpg" alt="Коробки" width="370" />
+              ><img
+                class="port-img"
+                src="./image/portfolio5.jpg"
+                alt="Коробки"
+                width="370"
+              />
               <h2 class="port-title">Проект Boxes</h2>
               <p class="port-subtitle">Приложение</p>
               <p class="port-text">
@@ -129,7 +148,12 @@
 
           <li>
             <a href=""
-              ><img src="./image/portfolio6.jpg" alt="Монитор" width="370" />
+              ><img
+                class="port-img"
+                src="./image/portfolio6.jpg"
+                alt="Монитор"
+                width="370"
+              />
               <h2 class="port-title">Inspiration has no Borders</h2>
               <p class="port-subtitle">Веб-сайт</p>
               <p class="port-text">
@@ -142,7 +166,12 @@
 
           <li>
             <a href=""
-              ><img src="./image/portfolio7.jpg" alt="Книга" width="370" />
+              ><img
+                class="port-img"
+                src="./image/portfolio7.jpg"
+                alt="Книга"
+                width="370"
+              />
               <h2 class="port-title">Издание Limited Edition</h2>
               <p class="port-subtitle">Дизайн</p>
               <p class="port-text">
@@ -155,7 +184,12 @@
 
           <li>
             <a href=""
-              ><img src="./image/portfolio8.jpg" alt="Лейба" width="370" />
+              ><img
+                class="port-img"
+                src="./image/portfolio8.jpg"
+                alt="Лейба"
+                width="370"
+              />
               <h2 class="port-title">Проект LAB</h2>
               <p class="port-subtitle">Маркетинг</p>
               <p class="port-text">
@@ -168,7 +202,12 @@
 
           <li>
             <a href=""
-              ><img src="./image/portfolio9.jpg" alt="Ноутбук" width="370" />
+              ><img
+                class="port-img"
+                src="./image/portfolio9.jpg"
+                alt="Ноутбук"
+                width="370"
+              />
               <h2 class="port-title">Growing Business</h2>
               <p class="port-subtitle">Приложение</p>
               <p class="port-text">
@@ -183,65 +222,66 @@
     </main>
 
     <footer class="footer">
-      <div>
-        <a href="./index.html" lang="en" class="logo-link">
-          <span class="logo-web">Web</span>
-          <span class="logo-studio">Studio</span>
-        </a>
+      <div class="container">
+        <div>
+          <a href="./index.html" lang="en" class="logo-link logo-link-footer">
+            <span class="logo-web">Web</span>
+            <span class="logo-studio">Studio</span>
+          </a>
 
-        <address class="address">
-          <ul>
-            <li>г. Киев, пр-т Леси Украинки, 26</li>
+          <address class="address">
+            <ul>
+              <li class="address-items">г. Киев, пр-т Леси Украинки, 26</li>
+              <li class="address-items">
+                <a href="mailto:info@devstudio.com" class="contact-address"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+380961111111" class="contact-address"
+                  >+380961111111</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="social">
+          <p class="social-text">Присоединяйтесь</p>
+
+          <ul class="social-list">
             <li>
-              <a href="mailto:info@devstudio.com" class="contact-address"
-                >info@devstudio.com</a
+              <a
+                href="https://www.instagram.com/"
+                class="social-link"
+                target="blank"
+                >instagram</a
               >
             </li>
             <li>
-              <a href="tel:+380961111111" class="contact-address"
-                >+380961111111</a
+              <a href="https://twitter.com/" class="social-link" target="blank"
+                >twitter</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/"
+                class="social-link"
+                target="blank"
+                >facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/"
+                class="social-link"
+                target="blank"
+                >linkedin</a
               >
             </li>
           </ul>
-        </address>
+        </div>
       </div>
-
-      <div class="social">
-        <p class="social-text">Присоединяйтесь</p>
-
-        <ul class="social-list">
-          <li>
-            <a
-              href="https://www.instagram.com/"
-              class="social-link"
-              target="blank"
-              >instagram</a
-            >
-          </li>
-          <li>
-            <a href="https://twitter.com/" class="social-link" target="blank"
-              >twitter</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.facebook.com/"
-              class="social-link"
-              target="blank"
-              >facebook</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/"
-              class="social-link"
-              target="blank"
-              >linkedin</a
-            >
-          </li>
-        </ul>
-      </div>
-
       <p class="dbr">
         2020 &verbar; Developed by GoIT Students
       </p>
