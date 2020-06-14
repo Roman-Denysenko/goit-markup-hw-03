@@ -202,6 +202,7 @@ h6 {
 .advantages {
   display: flex;
   margin-bottom: 94px;
+  align-items: center;
 }
 
 .section .section-img {
@@ -258,7 +259,7 @@ h6 {
 }
 
 .work-items {
-  width: ((100%-60px)/3);
+  width: calc((100%-60px) / 3);
 }
 
 .work-items:not(:last-child) {
