@@ -413,10 +413,13 @@ h6 {
 .port-button:hover,
 .port-button:focus {
   color: #ffffff;
+  background-color: var(--accent-color);
 }
 
 .port-button {
-  background-color: var(--accent-color);
+  background-color: #f5f4fa;
+  border-color: transparent;
+  border-radius: 4px;
 
   font-family: Roboto;
   font-style: normal;
