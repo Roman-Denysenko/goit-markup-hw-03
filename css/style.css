@@ -18,7 +18,7 @@ html {
 body {
   margin: 0;
   color: var(--main-color-text);
-  background-color: #e5e5e5;
+  background-color: #ffffff;
 
   font-family: Roboto, sans-serif;
   font-weight: 400;
@@ -180,7 +180,7 @@ h6 {
 /*Наши преимущества*/
 
 .section {
-  background-color: #e5e5e5;
+  background-color: ##ffffff;
 }
 
 .section-iteams-team {
@@ -233,6 +233,10 @@ h6 {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
+  /*text-transform: uppercase;*/
+}
+
+.advantages .section-subtitle {
   text-transform: uppercase;
 }
 
@@ -285,6 +289,7 @@ h6 {
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .section-title-team {
@@ -365,14 +370,16 @@ h6 {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-addres {
+.footer-address {
   margin-top: 45px;
   margin-bottom: 46px;
+  width: 230px;
 }
 
 .social {
   margin-left: 69px;
   margin-top: 57px;
+  width: 206px;
 
   color: var(--third-color-text);
 
@@ -434,7 +441,7 @@ h6 {
 
 .button-list {
   display: flex;
-  padding-top: 93px;
+  margin-top: 93px;
   margin-bottom: 50px;
   justify-content: center;
 }
